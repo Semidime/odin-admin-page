@@ -78,6 +78,7 @@
     display: grid;
     grid-template-columns: 4fr 2fr ;
     padding: 20px 10px;
+    gap: 20px;
 }
 
 .main-section1 {
@@ -94,7 +95,31 @@
     border: 2px red dashed;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 4fr 1fr 4fr;
+    grid-template-rows: auto 4fr 1fr 4fr;
+}
+
+.announcement-heading {
+    border: 2px red dashed;
+    padding-bottom: 10px;
+}
+
+.announcement-wrapper {
+    border: 2px red dashed;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.announcement-group {
+    border: 2px red dashed;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px 10px;
+}
+
+.trend-heading {
+    border: 2px red dashed;
+    padding-bottom: 10px;
+    align-self: end;
 }
 
 .trend-wrapper {
@@ -103,14 +128,16 @@
     grid-template-columns: 1fr;
 }
 
-.trend-wrapper div {
+.trend-group {
     border: 2px red dashed;
     display: grid;
     grid-template-columns: 40px 1fr;
     align-items: center;
+    padding: 0 10px;
 }
 
 .trend-icon {
+    border: 2px red dashed;
     grid-row: 1 / 3;
     align-self: center;
     justify-self: center;
@@ -119,5 +146,6 @@
 
 .trend-bio,
 .trend-user {
+    border: 2px red dashed;
     padding-left: 5px;
 }
