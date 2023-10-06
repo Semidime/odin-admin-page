@@ -76,7 +76,7 @@
 .main {
     border: green solid 2px;
     display: grid;
-    grid-template-columns: 4fr 2fr ;
+    grid-template-columns: 3fr 2fr ;
     padding: 20px 10px;
     gap: 20px;
 }
@@ -84,22 +84,70 @@
 .main-section1 {
     border: 2px red dashed;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-template-rows: 25px 1fr;
+    gap: 10px;
 }
 
-.main-section1 h4{
+.project-heading {
+    border: 2px red dashed;
     grid-column: 1/-1;
+    height: 25px;
+}
+
+.project-card-group {
+    border: 2px red dashed;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-rows: repeat(auto-fit,1fr);
+    gap: 10px;
+    /* align-content: space-between; */
+}
+
+.project-card {
+    border: 2px red dashed;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25px 2fr 50px;
+    min-height: 300px;
+}
+
+.project-name, 
+.project-text {
+    border: 2px red dashed;
+}
+
+.project-icon-group {
+    border: 2px red dashed;
+    display: grid;
+    grid-template-columns: 1fr repeat(3,40px);
+}
+
+.project-icon1 {
+    border: 2px red dashed;
+    grid-column: 2/3;
+}
+
+.project-icon2 {
+    border: 2px red dashed;
+    grid-column: 3/4;
+}
+
+.project-icon3 {
+    border: 2px red dashed;
+    grid-column: 4/-1;
 }
 
 .main-section2  {
     border: 2px red dashed;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 4fr 1fr 4fr;
+    grid-template-rows: 25px 4fr 1fr 4fr;
 }
 
 .announcement-heading {
     border: 2px red dashed;
+    height: 25px;
     padding-bottom: 10px;
 }
 
