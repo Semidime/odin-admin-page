@@ -35,19 +35,13 @@
 }
 
 .header {
-    border: green solid 2px;
     display: grid;
     grid-template: 1fr 1fr / 3fr 2fr;
     margin: 20px;
     gap: 10px;
 }
 
-.header-section1 {
-    border: 2px red dashed;
-}
-
 .header-section1 form {
-    border: 2px red dashed;
     height: 100%;
     display: grid;
     grid-template-columns: 60px 1fr;
@@ -67,7 +61,6 @@
 }
 
 .header-section2 {
-    border: 2px red dashed;
     display: grid;
     grid-template-columns: 2fr 1fr 3fr;
     padding: 5px;
@@ -80,7 +73,6 @@
 }
 
 .header-section3 {
-    border: 2px red dashed;
     display: grid;
     grid-template: 1fr 1fr / 120px 1fr;
     padding: 5px;
@@ -93,7 +85,6 @@
 }
 
 .header-section4 {
-    border: 2px red dashed;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 5px 10px;
