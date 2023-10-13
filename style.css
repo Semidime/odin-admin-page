@@ -80,13 +80,19 @@ body {
 #search-btn {
     grid-template-columns: 1 / 2;
     padding: 5px 0.5rem;
+    width: 25px;
+    height: 25px;
+    background: url(images/search-195.svg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: end;
 }
 
 #search-bar {
     grid-template-columns: 2 / 3;
     background-color: lightgrey;
     border-radius: 15px;
-    margin: 2.5px 30px;
+    margin: 2.5px 15px;
     padding-left: 10px;
     padding: 5px 0.5rem;
 }
