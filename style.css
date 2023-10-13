@@ -106,6 +106,11 @@ body {
 }
 
 .header-section2 .notification-icon {
+    width: 25px;
+    height: 25px; 
+    background: url(images/notification-on-outline.svg); 
+    background-size: contain;
+    background-repeat: no-repeat;
     justify-self: end;
 }
 
@@ -115,7 +120,7 @@ body {
     padding: 5px;
 }
 
-.header-section3 .header-icon {
+.header-section3 .semi-avi {
     grid-column: 1 / 2;
     grid-row: 1/3;
     place-self: center;
@@ -129,6 +134,15 @@ body {
     justify-items: center;
     align-items: center;
 }  
+
+.semi-avi {
+    width: 45px;
+    height: 45px; 
+    background: url(images/hacker.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+}
 
 .header-btn {
     background-color: rgb(0, 166, 255);
@@ -278,9 +292,31 @@ body {
 }
 
 .trend-icon {
-    border: 2px red dashed;
     grid-row: 1 / 3;
     place-self: center;
+    width: 45px;
+    height: 45px; 
+}
+
+.user-avi1 {
+    background: url(images/man.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+}
+
+.user-avi2 {
+    background: url(images/cat.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
+}
+
+.user-avi3 {
+    background: url(images/tibo.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-self: center;
 }
 
 .trend-user {
