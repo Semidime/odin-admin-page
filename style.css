@@ -100,15 +100,15 @@ body {
 
 .header-section2 {
     display: grid;
-    grid-template-columns: 2fr 4vw 3fr;
+    grid-template-columns: 2fr max(60px, 6vw) 3fr;
     padding: 5px;
     gap: 20px;
     align-items: center;
 }
 
 .header-section2 .notification-icon {
-    width: 2vw;
-    height: 2vw;
+    width: max(30px, 2vw);
+    height: max(30px, 2vw);
     background: url(images/notification-on-outline.svg); 
     background-size: contain;
     background-repeat: no-repeat;
@@ -117,7 +117,7 @@ body {
 
 .header-section3 {
     display: grid;
-    grid-template: 1fr 1fr / 8vw 1fr;
+    grid-template: 1fr 1fr / max(60px, 6vw) 1fr;
     padding: 5px;
 }
 
@@ -128,8 +128,8 @@ body {
 }
 
 .semi-avi {
-    width: 3vw;
-    height: 3vw;
+    width: max(40px, 3vw);
+    height: max(40px, 3vw);
     background: url(images/hacker.png); 
     background-size: contain;
     background-repeat: no-repeat;
@@ -301,15 +301,15 @@ body {
 
 .trend-group {
     display: grid;
-    grid-template-columns: 4vw 1fr;
+    grid-template-columns: max(50px, 4vw) 1fr;
     font-size: max(0.75vw, 1rem)
 }
 
 .trend-icon {
     grid-row: 1 / 3;
     place-self: center;
-    width: 2vw;
-    height: 2vw;
+    width: max(30px, 2vw);
+    height: max(30px, 2vw);
 }
 
 .user-avi1 {
